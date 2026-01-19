@@ -3,15 +3,6 @@ import { ExternalLink, Github, Download } from "lucide-react"
 
 const projects = [
   {
-    title: "iONE Speed Monitor",
-    description:
-      "A lightweight Windows utility that displays real-time network download and upload speeds in a floating, always-on-top window. Features minimal CPU usage and optional startup launch.",
-    tech: ["Visual Basic .NET", "Windows", "Inno Setup"],
-    liveUrl: "https://github.com/irazirfan/Speed_Monitor",
-    githubUrl: "https://github.com/irazirfan/Speed_Monitor",
-    downloadUrl: "https://github.com/irazirfan/Speed_Monitor/releases/download/v1.2/iONE_SM_Setup.exe",
-  },
-  {
     title: "E-Housing",
     description:
       "A full-stack real estate web application built with Angular frontend and ASP.NET Core Web API backend. Features reactive forms, ng-bootstrap, and CSS animations.",
@@ -20,12 +11,13 @@ const projects = [
     githubUrl: "https://github.com/irazirfan/e-housing",
   },
   {
-    title: "Computer Shop Inventory",
+    title: "iONE Speed Monitor",
     description:
-      "An inventory management system built in Visual C# with a layered architecture including Data, Service, and Presentation layers.",
-    tech: ["C#", "Visual Studio", "SQL Server"],
-    liveUrl: "#",
-    githubUrl: "https://github.com/irazirfan/Computer-Shop-Inventory",
+      "A lightweight Windows utility that displays real-time network download and upload speeds in a floating, always-on-top window. Features minimal CPU usage and optional startup launch.",
+    tech: ["Visual Basic .NET", "Windows", "Inno Setup"],
+    liveUrl: "https://github.com/irazirfan/Speed_Monitor/releases/download/v1.2/iONE_SM_Setup.exe",
+    githubUrl: "https://github.com/irazirfan/Speed_Monitor",
+    downloadUrl: "https://github.com/irazirfan/Speed_Monitor/releases/download/v1.2/iONE_SM_Setup.exe",
   },
   {
     title: "URL Shortener Microservice",
@@ -34,6 +26,14 @@ const projects = [
     tech: ["Node.js", "Express", "MongoDB"],
     liveUrl: "https://hip-cobalt-chalk.glitch.me",
     githubUrl: "https://github.com/irazirfan/url-shortner",
+  },
+  {
+    title: "Computer Shop Inventory",
+    description:
+      "An inventory management system built in Visual C# with a layered architecture including Data, Service, and Presentation layers.",
+    tech: ["C#", "Visual Studio", "SQL Server"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/irazirfan/Computer-Shop-Inventory",
   },
   {
     title: "Smart Mess",
