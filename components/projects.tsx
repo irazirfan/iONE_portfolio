@@ -19,14 +19,14 @@ const projects = [
     githubUrl: "https://github.com/irazirfan/Speed_Monitor",
     downloadUrl: "https://github.com/irazirfan/Speed_Monitor/releases/download/v1.2/iONE_SM_Setup.exe",
   },
-  {
-    title: "URL Shortener Microservice",
-    description:
-      "A URL shortener microservice built with Node.js, Express, and MongoDB as part of freeCodeCamp APIs and Microservices certification.",
-    tech: ["Node.js", "Express", "MongoDB"],
-    liveUrl: "https://hip-cobalt-chalk.glitch.me",
-    githubUrl: "https://github.com/irazirfan/url-shortner",
-  },
+  // {
+  //   title: "URL Shortener Microservice",
+  //   description:
+  //     "A URL shortener microservice built with Node.js, Express, and MongoDB as part of freeCodeCamp APIs and Microservices certification.",
+  //   tech: ["Node.js", "Express", "MongoDB"],
+  //   liveUrl: "https://hip-cobalt-chalk.glitch.me",
+  //   githubUrl: "https://github.com/irazirfan/url-shortner",
+  // },
   {
     title: "Computer Shop Inventory",
     description:
