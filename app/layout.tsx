@@ -9,21 +9,19 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 const _jetBrainsMono = JetBrains_Mono({ subsets: ["latin"] });
 
-const repoName = 'portfolio';
-
 export const metadata: Metadata = {
   title: 'Iraz Irfan | iONE',
   description: 'Software Engineer at IMpulse (BD) Ltd. specializing in C#, ASP.NET, Angular, JavaScript, and building scalable applications.',
   generator: 'v0.app',
-  icons: {
-    icon: [
-      { url: '/${repoName}/favicon.ico' },
-      { url: '/${repoName}/icon.png', sizes: '32x32', type: 'image/png' },
-    ],
-    apple: [
-      { url: '/${repoName}/apple-icon.png', sizes: '180x180', type: 'image/png' },
-    ],
-  },
+  // icons: {
+  //   icon: [
+  //     { url: '/favicon.ico' },
+  //     { url: '/icon.png', sizes: '32x32', type: 'image/png' },
+  //   ],
+  //   apple: [
+  //     { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+  //   ],
+  // },
 }
 
 export default function RootLayout({
