@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/button"
 
 const terminalLines = [
-  { command: "$ whoami", response: "> Iraz Irfan - Software Engineer" },
+  { command: "$ whoami", response: "> Iraz Irfan - Full Stack Software Engineer" },
   { command: "$ skills", response: "> .NET • JavaScript • PostgreSQL • Angular" },
   { command: "$ location", response: "> Dhaka, Bangladesh" },
 ]
